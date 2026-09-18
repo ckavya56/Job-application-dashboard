@@ -50,9 +50,16 @@ A separate **Company_Master** table was created with:
 
 ## Excel Features Used
 
-### XLOOKUP
+This project demonstrates practical use of several Microsoft Excel features:
 
-XLOOKUP was used to retrieve company-related information from the Company Master table.
-
-```excel
-=XLOOKUP([@Company],Table1[Company],Table1[Industry])
+- **Excel Tables** – Used to organize and manage the application dataset in a structured format.
+- **XLOOKUP** – Used to retrieve company information from the Company Master table and connect related datasets.
+- **Excel Formulas** – Used functions such as AVERAGE, MAX, MIN, COUNT, COUNTIF, COUNTIFS, IF, and TEXT for calculations and analysis.
+- **PivotTables** – Used to summarize and analyze application data across different categories.
+- **PivotCharts** – Used to create visual representations of PivotTable results.
+- **Sorting and Filtering** – Used to organize application data and identify patterns more easily.
+- **Conditional Formatting** – Used to improve readability and highlight important information.
+- **Date and Month Analysis** – Used application dates to analyze monthly application trends.
+- **KPI Calculations** – Created metrics such as total applications, interview rate, offer rate, rejection rate, average salary, highest salary, and lowest salary.
+- **Data Visualization** – Used Column, Bar, Line, and Doughnut charts to present insights.
+- **Dashboard Design** – Combined KPIs, charts, and analysis into a centralized interactive dashboard.
